@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'motion/react';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import React from "react";
+import { motion } from "motion/react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -27,8 +27,8 @@ export const Hero = () => {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-5xl md:text-8xl font-display font-bold tracking-tight mb-8 leading-[1.1]"
         >
-          Hi, I'm <span className="text-gradient">Anthony</span>. <br />
-          Aspiring Developer.
+          Hi, I'm <span className="text-gradient">Elyab Ville Rosel</span>. <br />
+          IT Student & Android Developer.
         </motion.h1>
 
         <motion.p
@@ -37,8 +37,7 @@ export const Hero = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="max-w-2xl mx-auto text-lg md:text-xl text-zinc-400 mb-12 leading-relaxed"
         >
-          I'm a Computer Science student passionate about building mobile and web applications. 
-          Currently focused on Android development and modern web technologies.
+          I'm an IT student specializing in Android development, focused on building innovative mobile applications.
         </motion.p>
 
         <motion.div

@@ -37,7 +37,7 @@ export const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="text-2xl font-display font-bold tracking-tighter text-gradient"
         >
-          ANTHONY.
+          Rosel.
         </motion.a>
 
         {/* Desktop Nav */}

@@ -1,27 +1,27 @@
-import React from 'react';
-import { motion } from 'motion/react';
-import { Code2, Cpu, Globe, Layers } from 'lucide-react';
+import React from "react";
+import { motion } from "motion/react";
+import { Code2, Cpu, Globe, Layers } from "lucide-react";
 
 const skills = [
   {
-    category: 'Frontend',
+    category: "Frontend",
     icon: <Globe className="text-cyan-400" />,
-    items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Three.js'],
+    items: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    category: 'Backend',
+    category: "Backend",
     icon: <Layers className="text-purple-400" />,
-    items: ['Node.js', 'Express', 'PostgreSQL', 'Redis', 'GraphQL', 'Prisma'],
+    items: ["PHP", "MySQL", "Firebase"],
   },
   {
-    category: 'AI / Machine Learning',
+    category: "Mobile Development",
     icon: <Cpu className="text-emerald-400" />,
-    items: ['Gemini API', 'OpenAI', 'LangChain', 'Vector DBs', 'Python', 'PyTorch'],
+    items: ["Android Studio", "Java", "Kotlin", "XML"],
   },
   {
-    category: 'Cloud / DevOps',
+    category: "Tools & Version Control",
     icon: <Code2 className="text-blue-400" />,
-    items: ['AWS', 'Docker', 'CI/CD', 'Vercel', 'Terraform', 'Kubernetes'],
+    items: ["Git", "GitHub", "Visual Studio Code", "Android SDK"],
   },
 ];
 
@@ -32,10 +32,10 @@ export const Skills = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
           <div>
             <h2 className="text-sm font-mono text-cyan-500 uppercase tracking-widest mb-4">Expertise</h2>
-            <h3 className="text-4xl md:text-5xl font-display font-bold">Technical Arsenal</h3>
+            <h3 className="text-4xl md:text-5xl font-display font-bold">Technical Skills</h3>
           </div>
           <p className="max-w-md text-zinc-400">
-            A comprehensive set of tools and technologies I use to bring digital visions to life.
+            A growing set of tools and technologies I use to build mobile apps and web experiences.
           </p>
         </div>
 

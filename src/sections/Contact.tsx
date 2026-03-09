@@ -23,7 +23,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs text-zinc-500 uppercase tracking-wider">Email Me</p>
-                  <p className="text-lg font-medium">hello@aura.dev</p>
+                  <p className="text-lg font-medium">Rosel@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 group">
@@ -33,9 +33,9 @@ export const Contact = () => {
                 <div>
                   <p className="text-xs text-zinc-500 uppercase tracking-wider">Socials</p>
                   <div className="flex gap-4 mt-1">
-                    <a href="#" className="text-zinc-400 hover:text-white transition-colors"><Github size={20} /></a>
-                    <a href="#" className="text-zinc-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
-                    <a href="#" className="text-zinc-400 hover:text-white transition-colors"><Twitter size={20} /></a>
+                    <a href="https://github.com/elyabvillerosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
+                    <a href="https://linkedin.com/in/elyabvillerosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+                    <a href="https://twitter.com/elyab_vrosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Twitter size={20} /></a>
                   </div>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export const Contact = () => {
                   <label className="text-xs font-mono text-zinc-500 uppercase tracking-widest">Name</label>
                   <input
                     type="text"
-                    placeholder="John Doe"
+                    placeholder="rosel"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-cyan-500/50 transition-colors"
                   />
                 </div>
@@ -62,7 +62,7 @@ export const Contact = () => {
                   <label className="text-xs font-mono text-zinc-500 uppercase tracking-widest">Email</label>
                   <input
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="rosel@example.com"
                     className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-4 outline-none focus:border-cyan-500/50 transition-colors"
                   />
                 </div>

@@ -1,39 +1,24 @@
-import React from 'react';
-import { motion } from 'motion/react';
-import { ExternalLink, Github } from 'lucide-react';
+import React from "react";
+import { motion } from "motion/react";
+import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: 'Aura AI Dashboard',
-    description: 'A real-time analytics platform powered by Gemini for predictive business insights.',
-    image: 'https://picsum.photos/seed/dashboard/800/600',
-    tags: ['Next.js', 'Gemini API', 'Tailwind', 'PostgreSQL'],
-    github: '#',
-    live: '#',
+    title: "Personal Blog",
+    description: "A simple blog site built with HTML, CSS, and PHP. Users can create, edit, and delete posts.",
+    image: "/assets/personalblgo.jpg", // Updated to use the local image
+    tags: ["HTML", "CSS", "PHP"],
+    github: "#", // Replace with your GitHub link
+    live: "#", // Replace with your live project link
   },
   {
-    title: 'Neural Network Visualizer',
-    description: 'Interactive 3D visualization of deep learning architectures using Three.js.',
-    image: 'https://picsum.photos/seed/neural/800/600',
-    tags: ['React', 'Three.js', 'TypeScript', 'GLSL'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'EcoSphere IoT',
-    description: 'Smart city monitoring system with real-time sensor data and automated alerts.',
-    image: 'https://picsum.photos/seed/iot/800/600',
-    tags: ['Node.js', 'MQTT', 'React', 'Redis'],
-    github: '#',
-    live: '#',
-  },
-  {
-    title: 'Lumina Design System',
-    description: 'A high-performance component library for building accessible, modern web apps.',
-    image: 'https://picsum.photos/seed/design/800/600',
-    tags: ['React', 'Storybook', 'Tailwind', 'Framer'],
-    github: '#',
-    live: '#',
+    title: "Task Manager",
+    description:
+      "A web-based task management system to keep track of daily tasks and goals, developed using HTML, CSS, and PHP.",
+    image: "/assets/task.jpg", // Updated to use the local image
+    tags: ["HTML", "CSS", "PHP"],
+    github: "#", // Replace with your GitHub link
+    live: "#", // Replace with your live project link
   },
 ];
 
@@ -70,10 +55,16 @@ export const Projects = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
                   <div className="flex gap-4">
-                    <a href={project.github} className="p-3 bg-white text-black rounded-full hover:scale-110 transition-transform">
+                    <a
+                      href={project.github}
+                      className="p-3 bg-white text-black rounded-full hover:scale-110 transition-transform"
+                    >
                       <Github size={20} />
                     </a>
-                    <a href={project.live} className="p-3 bg-white text-black rounded-full hover:scale-110 transition-transform">
+                    <a
+                      href={project.live}
+                      className="p-3 bg-white text-black rounded-full hover:scale-110 transition-transform"
+                    >
                       <ExternalLink size={20} />
                     </a>
                   </div>
@@ -87,12 +78,8 @@ export const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <h4 className="text-2xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
-                  {project.title}
-                </h4>
-                <p className="text-zinc-400 leading-relaxed">
-                  {project.description}
-                </p>
+                <h4 className="text-2xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">{project.title}</h4>
+                <p className="text-zinc-400 leading-relaxed">{project.description}</p>
               </div>
             </motion.div>
           ))}
