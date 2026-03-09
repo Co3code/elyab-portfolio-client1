@@ -34,8 +34,8 @@ export const Contact = () => {
                   <p className="text-xs text-zinc-500 uppercase tracking-wider">Socials</p>
                   <div className="flex gap-4 mt-1">
                     <a href="https://github.com/elyabvillerosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
-                    <a href="https://linkedin.com/in/elyabvillerosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
-                    <a href="https://twitter.com/elyab_vrosel" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Twitter size={20} /></a>
+                    <a href="" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+                    <a href="" className="text-zinc-400 hover:text-white transition-colors" target="_blank" rel="noopener noreferrer"><Twitter size={20} /></a>
                   </div>
                 </div>
               </div>
